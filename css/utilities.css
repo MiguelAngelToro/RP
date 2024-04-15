@@ -102,6 +102,19 @@ h2::selection {
   margin: 0 auto;
   max-width: 700px;
 }
+.technologies{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+.tech{
+  background-image: url(/assets/M\ TORO.png);
+  height: 45px;
+  width: 45px;
+
+}
 
 /* Project cards */
 .card {
@@ -136,27 +149,27 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.png) center center/cover;
+  background: url(../assets/project/hospital-management.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/project/airline-management.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center/cover;
+  background: url(../assets/project/library-management.png) center center/cover;
 }
 
 /* Project 4 */
 .card:nth-child(4) {
-  background: url(../assets/project/project-four.png) center center/cover;
+  background: url(../assets/project/proyecto-nutav.png) center center/cover;
 }
 
 /* Project 5 */
 .card:nth-child(5) {
-  background: url(../assets/project/project-five.png) center center/cover;
+  background: url(../assets/project/movies-searcher.png) center center/cover;
 }
 
 /* Project 6 */
